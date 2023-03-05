@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <style>
+        #mapId {
+            height: 280px;
+        }
+        #loading {
+            text-align: center;
+        }
+        #heading {
+            text-align: center;
+        }
+    </style>
+    <title>Setting up map for the ISS</title>
+</head>
+
+<body>
+    <h1 id = "heading">Where is the ISS?</h1>
+
+    <p>Latitude: <span id="d1"></span>°<br>Longitude: <span id="d2"></span>°</p>
+    <p id='k'></p>
+
+    <div id='mapId'></div>
+    <h1 id='loading'></h1>
+
+    <script src = "script.js">
+
+    </script>
+</body>
+
+</html>
