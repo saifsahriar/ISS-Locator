@@ -12,7 +12,7 @@ tiles.addTo(mymap);
 
 // mapping the ISS using custom icon
 const icon = L.icon({
-    iconUrl: 'circle.png',   // this rainbow icon as the ISS icon is irrelevant, i know, but this is the result of my laziness
+    iconUrl: 'Circle.png',   // this rainbow icon as the ISS icon is irrelevant, i know, but this is the result of my laziness
     iconSize: [20, 20],
     iconAnchor: [10, 10]
 });
